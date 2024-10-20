@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+a, a:hover{
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background: url(/pics/header/header.jpg) no-repeat;
+    height: 768px;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #1b1b11;
+    background: #ffc61a;
+    border-radius: 15px;
+}
+
+.nav-link {
+    color: #fff;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #1b1b11;
+    background: #ffc61a;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.letter-space {
+    letter-spacing: 10px;
+}
+
+.section1 {
+    background: #ffc61a;
+}
+
+.section1 .fs-2{
+    margin-top: 150px;
+}
+
+.orange-background{
+    background: #ffc61a;
+}
+
+.orange-color{
+    color: #ffc61a;
+}
+
+.section1 p{
+    width: 85%;
+}
+.button input{
+    color: #fff;
+    margin-top: 15px;
+    background: black;
+    padding: 5px 22px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+}
+
+.button input:hover{
+    color: #ffc61a;
+}
+
+.section1 .bg-white{
+    margin-top: 150px;
+}
+
+.section1 label{
+    border-bottom: 1px solid #1b1b11;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section1 label:focus{
+    border-color: #ffc61a;
+}
+
+.section1 input[type="text"]{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #30302e;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.section1 input:focus{
+    border-color: #ffc61a;
+}
+
+.section1 input::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+    color: #30302e;
+}
+
+.section1 select{
+    font-size: 20px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #30302e;
+    border-radius: 0;
+    color: #30302e;
+}
+
+.section1 select:focus{
+    border-color: #ffc61a;
+    box-shadow: none;
+}
+
+main .section2{
+        background: #ffffff;    
+        /* background: #1b1b1b; */
+}
+
+main .section2 .card{
+    background: #f5f4f2;
+    border: none;
+    margin-top: 70px;
+    /* height: 390px; */
+    margin-bottom: 20px;
+}
+
+
+main .section2 .card .card-img-top{
+    margin-top: -70px;
+}
+
+main .section2 .card .second-img{
+    margin-top: -55px;
+    margin-left: 383px;
+    position: relative;
+    border-bottom-right-radius: 5px;
+}
+
+main .section2 .orange-background{
+    background: #ffc61a ;
+}
+
+main .section2 .text-uppercase{
+    margin-bottom: 50px;
+}
+
+.orange input[type="button"]{
+    color: #1b1b1b;
+    margin-top: 15px;
+    background: #ffc61a;
+    padding: 5px 22px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+}
+
+.orange input:hover{
+    color: #ffc61a;
+    background: #30302e;
+}
+
+.section3{
+    background: url(/pics/Content/content-bg.jpg);
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.section4{
+    background: #ffffff;
+}
+
+.section5{
+    background: url(/pics/Testim/testim-bg.png);
+    background-size: cover;
+}
+
+.footer{
+    background: url(/pics/Contact/contact-bg.jpg);
+    background-size: cover;
+}
+
+.footer .bdr h3{
+    border-bottom: 5px solid #ffc61a;
+    padding-bottom: 15px;
+    margin-right: 60px;
+}
+.footer .bdr p{
+    width: 80%;
+}

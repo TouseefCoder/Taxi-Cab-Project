@@ -1,0 +1,39 @@
+@media(max-width:991px), (min-width:761px){
+    
+    .navbar-nav{
+        margin-top: 1rem;
+    }
+    .navbar-nav li{
+        margin-top: 10px;
+    }
+
+    
+
+}
+
+@media(max-width:1500px), (min-width:1399px) {
+    main .section2 .card .second-img{
+        margin-top: -55px;
+        margin-left: 438px;
+        position: relative;
+        border-bottom-right-radius: 5px;
+    }    
+}
+
+@media(max-width:1399px), (min-width:1237px) {
+    main .section2 .card .second-img{
+        margin-top: -55px;
+        margin-left: 283px;
+        position: relative;
+        border-bottom-right-radius: 5px;
+    }    
+}
+
+@media (max-width: 1237px), (min-width: 992px) {
+    main .section2 .card .second-img {
+        margin-top: -55px;
+        margin-left: 283px;
+        position: relative;
+        border-bottom-right-radius: 5px;
+    }
+}
