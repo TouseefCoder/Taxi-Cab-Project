@@ -11,7 +11,7 @@ a, a:hover{
 }
 
 header {
-    background: url(/pics/header/header.jpg) no-repeat;
+    background: url('../pics/header/header.jpg') no-repeat;
     height: 768px;
     background-size: cover;
     margin-bottom: 0;
